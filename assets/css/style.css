@@ -3,10 +3,11 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-family: 'Caveat', cursive;
+  font-size: 35px;
   line-height: 1;
   background-color:black;
+  background-image:url(../images/Goals.png);
 }
 
 textarea{
@@ -23,7 +24,6 @@ textarea{
   background-color: transparent;
   color: white;
   border-radius: 0;
-  border-bottom: 10px solid black;
 }
 
 .description{
@@ -33,6 +33,8 @@ textarea{
 .time-block{
   text-align: center;
   border-radius: 15px;
+  height: 70px;
+  border-radius: 80px 80px 0 0;
 }
 
 .row {
@@ -42,9 +44,7 @@ textarea{
 }
 
 .hour {
-  background-color:var(--darkblue);
-  color: #000000;
-  border-top: 1px dashed #000000;
+  border-radius: 80px 0 0 0;
 }
 
 .past {
@@ -66,8 +66,8 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: var(--darkblue);
-  color: white;
+  /* background-color: var(--darkblue); */
+  color: black;
 }
 
 .saveBtn i:hover {
